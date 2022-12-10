@@ -15,6 +15,8 @@ import Kyc from './components/pages/Kyc';
 import Detail from './components/pages/Details';
 import Projects from './components/pages/Projects';
 import Stepper from './components/pages/Stepper';
+import Nft from './components/partial/Presale/Nft';
+import NftDetails from './components/partial/Presale/NftDetails';
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
         {/* <Route path="/Learn" element={<Learn/>}/> */}
         <Route path="/presale" element={<Presale setProjectNo={setProjectNo}/>}/>
+        <Route path="/nft" element={<Nft/>}/>
+        <Route path="/nft/:id" element={<NftDetails/>}/>
         <Route path="/privatesale" element={<Privatesale/>}/>
         <Route path="/contest" element={<Contest/>}/>
         <Route path="/locker" element={<Locker/>}/>

@@ -32,35 +32,35 @@ const Presale = ({ setProjectNo }) => {
 
   const [pdn1, setPdn1] = useState(dnone);
   const [pdn3, setPdn3] = useState(dnone);
-  const [nft, setNft] = useState(dnone);
+  // const [nft, setNft] = useState(dnone);
   const [pdn4, setPdn4] = useState(dnone);
 
-  const pNft = () => {
-    setBg(colorb);
-    setBg1(colora);
-    setNft(dnone);
-    setTc1(colort);
-    // setPdn1(dnone);
-    // setPdn(dnone);
-    setPdn3(dnone);
-    setPdn4(dblock);
-  };
-  const pNftBack = () => {
-    setBg1(colora);
-    // setBg2(colorb);
-    setPdn(dnone);
-    setTc2(colort);
-    setPdn1(dnone);
-    setNft(dnone);
-    setPdn3(dblock);
-  };
+  // const pNft = () => {
+  //   setBg(colorb);
+  //   setBg1(colora);
+  //   setNft(dnone);
+  //   setTc1(colort);
+  //   // setPdn1(dnone);
+  //   // setPdn(dnone);
+  //   setPdn3(dnone);
+  //   setPdn4(dblock);
+  // };
+  // const pNftBack = () => {
+  //   setBg1(colora);
+  //   // setBg2(colorb);
+  //   setPdn(dnone);
+  //   setTc2(colort);
+  //   setPdn1(dnone);
+  //   setNft(dnone);
+  //   setPdn3(dblock);
+  // };
   const pBtn = () => {
     setBg(colorb);
     setBg1(colora);
     setPdn(dnone);
     setTc1(colort);
     setPdn1(dblock);
-    setNft(dnone);
+    // setNft(dnone);
   };
 
   const colora2 = "rgb(243 231 231)";
@@ -91,7 +91,8 @@ const Presale = ({ setProjectNo }) => {
     setBg3(colora);
     setTc3(colort);
     setPdn3(dnone);
-    setNft(dblock);
+    setPdn4(dblock);
+    // setNft(dblock);
   };
   const pBtn3Back = () => {
     setBg2(colora);
@@ -111,7 +112,7 @@ const Presale = ({ setProjectNo }) => {
     // setBg3(colorb);
     setTc3(colort);
     setPdn1(dnone);
-    setNft(dblock);
+    setPdn3(dblock);
     setPdn4(dnone);
   };
 
@@ -153,7 +154,7 @@ const Presale = ({ setProjectNo }) => {
             />
 
             <PreFourthPage pdn3={pdn3} pBtn3Back={pBtn3Back} pBtn3={pBtn3} />
-            <Nft pNft={pNft} nft={nft} pNftBack={pNftBack}/>
+       
             <PreFive pdn4={pdn4} pBtn4Back={pBtn4Back} pBtn4={() => pBtn4()} />
           </div>
         </section>

@@ -13,7 +13,6 @@ export const Dat = createContext();
 const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
   const vali = document.getElementById("valinput");
   const [selected, setSelected] = useState("BNB");
-  const [liquidity, setliquidity] = useState("BNB");
   const [datas, setDatas] = useState({
     text01: "",
   });
@@ -26,7 +25,6 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
     });
   };
 
-  console.log(datas);
   const selectHandler = (e) => {
     setSelected(e.target.value);
   };
@@ -41,7 +39,7 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
           <p>{"(*)"} is required field.1</p>
           <form>
             <div className="form-group">
-              <label for="exampleInputEmail1">
+              <label htmlFor="exampleInputEmail1">
                 Token Address <span style={{ color: "red" }}>*</span>
               </label>
               <input
@@ -54,17 +52,26 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
               />
             </div>
             <div className="form-group mt-5">
-              <label for="currency">Currency</label>
+              <label htmlFor="currency">Currency-Fee 0.75 BNB</label>
+              <select
+                className="form-select  preinput"
+                aria-label="Default select example"
+              >
+                <option>BNB</option>
+              </select>
+            </div>
+            {/* <div className="form-group mt-5">
+              <label htmlFor="currency">Currency</label>
               <select
                 className="form-select  preinput"
                 aria-label="Default select example"
                 onChange={(e) => selectHandler(e)}
               >
                 {options.map((op, index) => (
-                  <option>{op.option}</option>
+                  <option key={index}>{op.option}</option>
                 ))}
               </select>
-            </div>
+            </div> */}
             {/* <div className="form-group mt-5">
               <label for="exampleInputEmail1">
                 Projects Liquidity <span style={{ color: "red" }}>*</span>
@@ -80,15 +87,7 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
               />
             </div> */}
           </form>
-          <label className="mt-5">Fee Option</label>
-          <h6 style={{ display: "flex", alignItems: "center" }}>
-            <input style={{ marginLeft: "8px" }} type="radio" /> 
-             Fee 0.75 BNB
-          </h6>
-          <h6 style={{ display: "flex", alignItems: "center" }}>
-            <input style={{ marginLeft: "8px" }} type="radio" />
-             Fee 800 SOL
-          </h6>
+
           <label className="mt-5">Fee Option</label>
           <h6 style={{ display: "flex", alignItems: "center" }}>
             <input style={{ marginLeft: "8px" }} type="radio" /> 2.5% {selected}{" "}

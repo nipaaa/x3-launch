@@ -88,7 +88,7 @@ const WalNav = () => {
                 <i class="fa-solid fa-arrows-up-down"></i>
               </button>
             </div>
-            <ul class="dropdown-menu border-0 ">
+            {/* <ul class="dropdown-menu border-0 ">
               <li>
                 <a class="dropdown-item py-2 px-0" href="#">
                   <button> <img
@@ -104,7 +104,7 @@ const WalNav = () => {
                  
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
           {/* <button onClick={() => aletim()}>
             <img

@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import Nav from "../Nav";
+import WalNav from "../WalNav";
 
-const Nft = ({ pNft, nft, pNftBack }) => {
+const Nft = () => {
+  const navigate = useNavigate();
   const [nftPic, setNftPic] = useState([]);
+
   useEffect(() => {
     fetch("nft.json")
       .then((res) => res.json())
@@ -13,58 +18,41 @@ const Nft = ({ pNft, nft, pNftBack }) => {
     console.log(e.target.files);
     setFile(URL.createObjectURL(e.target.files[0]));
   }
+
+  const handleDetails = (id) => {
+    console.log(id);
+    navigate(`/nft/${id}`);
+  };
+
   return (
     <>
-      <div
-        className="col-12 col-md-8 col-lg-8 col-xl-8  rightPresale"
-        style={{ display: nft }}
-      >
-        <div>
-          <div className=" shadow m-5">
-            <p>Upload your photo here</p>
+      <div className="d-flex">
+        <Nav />
 
-            <div className="ms-5 me-5">
-              <div className="d-flex justify-content-between">
-                <div>
-                  <img
-                    className="my-5"
-                    style={{ height: "223px", width: "270px" }}
-                    src={file}
-                    alt="nft"
-                  />
-                </div>
+        <section className="home_contents">
+          <WalNav />
+          <div className="container mx-auto my-5">
+            <h1 className="mb-5 text-center">NFT</h1>
+            <div className="row g-5">
+              {nftPic.map((nft) => (
+                <div className="col-12 col-md-6 col-lg-4" key={nft.id}>
+                  <div className="shadow p-2">
+                    {/* <Link to="/nftDetails"> */}
+                      <img
+                      onClick={() => handleDetails(nft.id)}
+                        className="img-fluid w-100 h-100"
+                        src={nft.pic}
+                        alt=""
+                      />
+                    {/* </Link> */}
 
-                <div className=" my-auto">
-                  <input
-                    className="mt-0 ms-5"
-                    type="file"
-                    id="img"
-                    name="img"
-                    accept="image/*"
-                    onChange={handleChange}
-                  />
+                    <p className="mt-3">Price: {nft.price} BNB</p>
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
-        </div>
-
-        <div className="row g-3">
-          {nftPic.map((picture) => (
-            <div className="col-12 col-md-6 col-lg-4" key={picture.id}>
-              <img className="img-fluid w-100 h-100" src={picture.pic} alt="" />
-            </div>
-          ))}
-
-          <div className="d-flex">
-            <button onClick={() => pNftBack()} className="nextBtn me-3">
-              Back
-            </button>
-            <button onClick={() => pNft()} className="nextBtn">
-              Next
-            </button>
-          </div>
-        </div>
+        </section>
       </div>
     </>
   );

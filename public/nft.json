@@ -1,123 +1,153 @@
 [
     {
         "id":1,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU",
+        "price": 235
     },
     {
         "id":2,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU",
+        "price": 236
     },
     {
         "id":3,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU",
+        "price": 237
     },
     {
         "id":4,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU",
+        "price": 225
     },
     {
         "id":5,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU",
+        "price": 232
     },
     {
         "id":6,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU",
+        "price": 236
     },
     {
         "id":7,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU",
+        "price": 215
     },
     {
         "id":8,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU",
+        "price": 236
     },
     {
         "id":9,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU",
+        "price": 125
     },
     {
         "id":10,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU",
+        "price": 223
     },
     {
         "id":11,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU",
+        "price": 231
     },
     {
         "id":12,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU",
+        "price": 215
     },
     {
         "id":13,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU",
+        "price": 235
     },
     {
         "id":14,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU",
+        "price": 200
     },
     {
         "id":15,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU",
+        "price": 215
     },
     {
         "id":16,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU",
+        "price": 225
     },
     {
         "id":17,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU",
+        "price": 225
     },
     {
         "id":18,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU",
+        "price": 214
     },
     {
         "id":19,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU",
+        "price": 235
     },
     {
         "id":20,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU",
+        "price": 201
     },
     {
         "id":21,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU",
+        "price": 203
     },
     {
         "id":22,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU",
+        "price": 203
     },
     {
         "id":23,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU",
+        "price": 200
     },
     {
         "id":24,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU",
+        "price": 235
     },
     {
         "id":25,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc_kS93LiFLZ5cb8ulkVJlalKeCewRWceIVQ&usqp=CAU",
+        "price": 201
     },
     {
         "id":26,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzDm7zMn59BZD9m_IVGEZKwbyV8wzjipycVQ&usqp=CAU",
+        "price": 203
     },
     {
         "id":27,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvvKvYiqEbFfqAfKjT3yoDDZf6MjIyG_n-g&usqp=CAU",
+        "price": 215
     },
     {
         "id":28,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcboV2jlR2l6Oyp-yWi9cU1CijLp2l51ZnZz3giP5ZwyCrWJ9CqAdlMpg_c3L_0H9TD_k&usqp=CAU",
+        "price": 205
     },
     {
         "id":29,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkqxNMUXwTkUm0i8sdtmBQCHt1dhCVwFH5A&usqp=CAU",
+        "price": 205
     },
     {
         "id":30,
-        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU"
+        "pic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGwWJav0rJK1ikSScPShdBftWzveNLeCqQCQ&usqp=CAU",
+        "price": 203
     }
     
 ]
