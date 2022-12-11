@@ -1,6 +1,8 @@
 import React from "react";
+import NftJson from "./NftJson";
 
 const NftCollection = ({ nft, pNftBack, pNft }) => {
+ 
   return (
     <>
       <div
@@ -48,7 +50,6 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
         </div>
         <div className="row">
           <div className="col-12 col-md-6 col-lg-6 col-xl-6">
-          
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
@@ -62,17 +63,24 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
                   placeholder="  5 BSC"
                 />
                 <input name="upload Logo" type="file" />
-                <button className="px-2" type="">Delete File</button>
+                <button className="px-2" type="">
+                  Delete File
+                </button>
               </div>
             </form>
           </div>
 
           <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <p></p>
-            <p className="fw-bold">Double Check before finalizing. Once completed you will not be able to fix your launchpad profile. *</p>
-
-           
+            <p className="fw-bold">
+              Double Check before finalizing. Once completed you will not be
+              able to fix your launchpad profile. *
+            </p>
           </div>
+        </div>
+
+        <div>
+       <NftJson/>
         </div>
 
         <div className="d-flex">

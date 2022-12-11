@@ -4,6 +4,7 @@ import WalNav from '../partial/WalNav';
 import { Link } from 'react-router-dom';
 import { Dat } from '../partial/Presale/PreSecodPage';
 import Countdown from 'react-countdown';
+import NftJson from '../partial/Presale/NftJson';
 
 const Detail = ()=>{
 
@@ -165,6 +166,10 @@ const Detail = ()=>{
     </div>
     </div>     
      
+</div>
+<div className='container my-5'>
+  
+<NftJson/>
 </div>
     </section>
     </div>
