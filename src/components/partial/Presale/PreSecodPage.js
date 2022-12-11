@@ -90,7 +90,7 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
 
           <label className="mt-5">Fee Option</label>
           <h6 style={{ display: "flex", alignItems: "center" }}>
-            <input style={{ marginLeft: "8px" }} type="radio" /> 2.5% {selected}{" "}
+            <input style={{ marginLeft: "8px" }} type="radio" /> 4% {selected}{" "}
             raised only
           </h6>
 

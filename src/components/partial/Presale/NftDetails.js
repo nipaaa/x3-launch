@@ -26,7 +26,7 @@ const NftDetails = () => {
               <div className="col-12 col-md-6">
 
 {
-    nft.map(n=>{id == n.id ? <h1>{n.price}</h1> : <p></p>})
+    nft.map(n=>{id === n.id ? <h1>{n.price}</h1> : <p></p>})
 }
 
 
@@ -36,11 +36,11 @@ const NftDetails = () => {
                   src={nft.pic}
                   alt=""
                 />
-                {/* <img
+                <img
                   className="img-fluid"
                   src="https://i.seadn.io/gae/qwKgn-RNLfP9MwsI5Ugky7PjAnRgNh_DlR0-qeRS4Zx6npnYeNw7LbBFq23Yw1OZbvjPzDFYsoZIpEgkfhrp98SslGHFQbLjvXMun9k?auto=format&w=1000"
                   alt=""
-                /> */}
+                />
               </div>
               <div className="col-12 col-md-6">
                 <h4>Bored Ape Bros #2309</h4>

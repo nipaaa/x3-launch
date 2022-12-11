@@ -360,7 +360,7 @@ const Home = () => {
               }}
             >
               x3Launch gives projects early access to offer presale and build
-              community.
+              community
             </h2>
           </div>
         </section>

@@ -10,10 +10,13 @@
     div#fixNav {
         position: fixed;
         left: 0%;
-        width: 192px;
+        width: 220px;
         border-right:1px solid $acolor;
         height:100vh;
     }
+}
+.disclaimer{
+text-align: justify;
 }
 .navSubLink{
     padding-left:0px;
@@ -241,6 +244,85 @@
             background: $acolor;
         }
  }
+
+
+// nft section
+.nftLeft{
+    height:612px;
+     width: 280px;
+     padding-bottom:9px;
+     background:rgba(236, 229, 229, 0.541);
+     padding:30px 40px;
+      border-radius:15px;
+      padding-bottom: 72px;
+      padding-left: 25px;
+      display:flex;
+      justify-content:space-between;
+      .pbox {
+         width: 80%;
+     }
+      .progressbar{
+         width: 2px;
+         height: 100%;
+         background: rgb(180, 177, 177);
+         position: relative;
+         margin-left: 28px;
+         display: flex;
+         justify-content: center;
+         
+      }
+      #p1{
+         top:0%;
+         left:0%;
+         background:$acolor;
+         color:#fff;
+      }
+      #p2{
+         top:21%;
+         left:0%;
+      }
+      #p3{
+         top:43%;
+         left:0%;
+      }
+      #p4{
+         top:67%;
+         left:0%;
+      }
+      #p5{
+         top:93%;
+         left:0%;
+      }
+    
+      .p1{
+         margin-left:-27px;
+         border-radius: 50%;
+         position:absolute;
+         background: rgb(243 231 231);
+         width: 56px;
+         height: 56px;
+         text-align: center;
+         font-size: 16px;
+         display: grid;
+         place-items: center;
+         margin-right: 50px;
+      }
+      .pbox{
+         padding-left:9px;
+      }
+      .pc1{
+         margin-top:50px
+      }
+      .pc1:nth-child(1) {
+         margin-top: 14px;
+     }
+ }
+    // nft section
+
+
+
+
+
 
 
  .dataWrap {

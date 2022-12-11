@@ -30,7 +30,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         {/* <Route path="/Learn" element={<Learn/>}/> */}
         <Route path="/presale" element={<Presale setProjectNo={setProjectNo}/>}/>
-        <Route path="/nft" element={<Nft/>}/>
+        <Route path="/nft" element={<Nft setProjectNo={setProjectNo}/>}/>
         <Route path="/nft/:id" element={<NftDetails/>}/>
         <Route path="/privatesale" element={<Privatesale/>}/>
         <Route path="/contest" element={<Contest/>}/>
