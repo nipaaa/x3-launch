@@ -99,14 +99,14 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
             raised + 1.5% token raised
           </h6>
 
-          <button
+          {/* <button
             onClick={() => {
               pBtn();
             }}
             className="nextBtn"
           >
             Next
-          </button>
+          </button> */}
 
           {/* <!-- Button trigger modal --> */}
           <button
