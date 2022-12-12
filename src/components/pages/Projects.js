@@ -12,8 +12,9 @@ const Projects = () => {
         <section className="home_contents">
           <WalNav />
           <div className="home_second_wrap  row my-5">
-                <div className="col-12 col-md-4 col-lg-4 col-xl-4 row">
-                  <div className="col-11 col-md-11 col-lg-11 col-xl-11  home_s_box m-auto">
+                <div className="col-12 col-md-4 col-lg-4 col-xl-4">
+                 <div className='row'>
+                 <div className="col-11 col-md-11 col-lg-11 col-xl-11  home_s_box m-auto">
                     <h5 style={{ marginBottom: "10px" }}>
                       <i
                         class="fa-brands fa-gripfire"
@@ -46,9 +47,12 @@ const Projects = () => {
                     </Link>
                     
                   </div>
+                 </div>
                 </div>
 
-                <div className="col-12 col-md-4 col-lg-4 col-xl-4 row">
+                <div className="col-12 col-md-4 col-lg-4 col-xl-4">
+                  <div className='row'>
+                    
                   <div className="col-11 col-md-11 col-lg-11 col-xl-11  home_s_box m-auto">
                     <h5 style={{ marginBottom: "10px" }}>
                       {" "}
@@ -87,8 +91,11 @@ const Projects = () => {
                       </div>
                     </Link>
                   </div>
+                  </div>
                 </div>
-                <div className="col-12 col-md-4 col-lg-4 col-xl-4 row">
+                <div className="col-12 col-md-4 col-lg-4 col-xl-4">
+                  <div className='row'>
+                    
                   <div className="col-11 col-md-11 col-lg-11 col-xl-11  home_s_box m-auto">
                     <h5 style={{ marginBottom: "10px" }}>
                       {" "}
@@ -124,6 +131,7 @@ const Projects = () => {
                         </div>
                       </div>
                     </Link>
+                  </div>
                   </div>
                 </div>
               </div>

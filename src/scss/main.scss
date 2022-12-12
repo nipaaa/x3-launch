@@ -15,6 +15,12 @@
         height:100vh;
     }
 }
+.row {
+    --bs-gutter-x: 0 !important;
+    margin-left: calc(var(--bs-gutter-x)*-0) !important;
+    margin-right: calc(var(--bs-gutter-x)*-.0) !important;
+}
+
 .disclaimer{
 text-align: justify;
 font-size: 12px;
