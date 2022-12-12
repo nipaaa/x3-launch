@@ -247,7 +247,7 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
             
             </form>
             <form>
-              <div className="form-group mt-2">
+              <div className="form-group">
                 <label for="exampleInputEmail1">
                   Lock up Period in days <span style={{ color: "red" }}>*</span>
                 </label>
