@@ -20,7 +20,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
                   className="form-control preinput"
                   id="exampleInputEmail1"
                   value="/favicon.ico"
-                  placeholder="  5 BSC"
+                  placeholder="  5 BNB"
                 />
                 <input name="upload Logo" type="file" />
               </div>
@@ -54,7 +54,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             type="text"
             className="form-control preinput"
             id="exampleInputEmail1"
-            placeholder="  3 BSC"
+            placeholder="  3 BNB"
           />
         </div>
 

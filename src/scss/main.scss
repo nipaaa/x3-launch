@@ -17,6 +17,7 @@
 }
 .disclaimer{
 text-align: justify;
+font-size: 12px;
 }
 .navSubLink{
     padding-left:0px;
@@ -114,7 +115,7 @@ text-align: justify;
     align-items: start;
     }
     .home_contributaion{
-        margin-top:100px;
+        margin-top:50px;
         display:flex;
         justify-content:space-evenly;
         .contribution_wrap{
@@ -226,6 +227,7 @@ text-align: justify;
         border:1px solid rgb(119, 115, 115);
         border-radius:15px;
         padding-bottom:30px;
+        margin-bottom: 150px;
 
         .preinput{
             height: 46px;

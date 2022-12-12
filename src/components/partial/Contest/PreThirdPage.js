@@ -13,8 +13,8 @@ const PreThirdPage = ({pdn1, pBtn1})=>{
               <p>{"(*)"} is required field.</p>
               <form>
         <div className="form-group">
-          <label for="exampleInputEmail1">Softcap BSC <span style={{color:"red"}}>*</span></label>
-          <input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder="  5 BSC"/>
+          <label for="exampleInputEmail1">Softcap BNB <span style={{color:"red"}}>*</span></label>
+          <input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder="  5 BNB"/>
         </div>
         
 
@@ -29,8 +29,8 @@ const PreThirdPage = ({pdn1, pBtn1})=>{
 
               <form>
         <div className="form-group">
-          <label for="exampleInputEmail1">Hardcap BSC <span style={{color:"red"}}>*</span></label>
-          <input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder=" 0.3 BSC"/>
+          <label for="exampleInputEmail1">Hardcap BNB <span style={{color:"red"}}>*</span></label>
+          <input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder=" 0.3 BNB"/>
         </div>
       
 
@@ -56,8 +56,8 @@ const PreThirdPage = ({pdn1, pBtn1})=>{
               <p>{"(*)"} is required field.</p>
               <form>
         <div className="form-group">
-          <label for="exampleInputEmail1">Buy BSC <span style={{color:"red"}}>*</span></label>
-          <input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder="  0.3 BSC"/>
+          <label for="exampleInputEmail1">Buy BNB <span style={{color:"red"}}>*</span></label>
+          <input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder="  0.3 BNB"/>
         </div>
           </form>
               </div>
@@ -67,8 +67,8 @@ const PreThirdPage = ({pdn1, pBtn1})=>{
 
               <form>
         <div className="form-group">
-          <label for="exampleInputEmail1">Buy BSC <span style={{color:"red"}}>*</span></label>
-          <input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder="  3 BSC"/>
+          <label for="exampleInputEmail1">Buy BNB <span style={{color:"red"}}>*</span></label>
+          <input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder="  3 BNB"/>
         </div>
         </form>
 
@@ -82,7 +82,7 @@ const PreThirdPage = ({pdn1, pBtn1})=>{
               <form>
         <div className="form-group">
           <label for="exampleInputEmail1">Start Time <span style={{color:"red"}}>*</span></label>
-          <input type="date" className="form-control preinput" id="exampleInputEmail1"  placeholder="  0.3 BSC"/>
+          <input type="date" className="form-control preinput" id="exampleInputEmail1"  placeholder="  0.3 BNB"/>
         </div>
           </form>
               </div>
@@ -93,7 +93,7 @@ const PreThirdPage = ({pdn1, pBtn1})=>{
               <form>
         <div className="form-group">
           <label for="exampleInputEmail1">END Time <span style={{color:"red"}}>*</span></label>
-          <input type="date" className="form-control preinput"   placeholder="  3 BSC"/>
+          <input type="date" className="form-control preinput"   placeholder="  3 BNB"/>
         </div>
         </form>
 
@@ -105,7 +105,7 @@ const PreThirdPage = ({pdn1, pBtn1})=>{
               <form>
         <div className="form-group  mt-4">
           <label for="exampleInputEmail1">Vesting period each cycle<span style={{color:"red"}}>*</span></label>
-          <input type="text" className="form-control preinput"   placeholder="  0.3 BSC"/>
+          <input type="text" className="form-control preinput"   placeholder="  0.3 BNB"/>
         </div>
           </form>
 

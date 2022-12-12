@@ -7,8 +7,10 @@ const Nav = () => {
       <div id="navi22" className="side_nav">
         <div id="fixNav">
          
-          <div className="logo_font d-flex flex-column justify-content-between h-100">
-            <div className="accordion" id="navAccordion">
+          <div className="logo_font">
+           
+          </div>
+          <div className="accordion" id="navAccordion">
               <div className="accordion-item">
                 <h2 id="headingThree">
                   <Link
@@ -88,7 +90,7 @@ const Nav = () => {
                   <div class="accordion-body">
                     <ul className="navSubLink">
                       <li>
-                        <Link to="/nft">Create Nft sale</Link>
+                        <Link to="/nft">Create NFT presale</Link>
                       </li>
                     </ul>
                   </div>
@@ -275,7 +277,7 @@ const Nav = () => {
               </div>
             </div>
 
-            <div className="">
+            <div className=" mt-5">
               <div className="border-1 p-2">
                 <p className="lh-sm disclaimer">
                   <span className="fw-bold me-1">Disclaimer:</span>
@@ -289,7 +291,6 @@ const Nav = () => {
                 </p>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </>

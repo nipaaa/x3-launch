@@ -48,13 +48,13 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Softcap BSC <span style={{ color: "red" }}>*</span>
+                  Softcap BNB <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   type="text"
                   className="form-control preinput"
                   id="exampleInputEmail1"
-                  placeholder="  5 BSC"
+                  placeholder="  5 BNB"
                 />
               </div>
             </form>
@@ -92,13 +92,13 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Hardcap BSC <span style={{ color: "red" }}>*</span>
+                  Hardcap BNB <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   type="text"
                   className="form-control preinput"
                   id="exampleInputEmail1"
-                  placeholder=" 0.3 BSC"
+                  placeholder=" 0.3 BNB"
                 />
               </div>
             </form>
@@ -154,7 +154,7 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
                   type="date"
                   className="form-control preinput"
                   id="exampleInputEmail1"
-                  placeholder="  0.3 BSC"
+                  placeholder="  0.3 BNB"
                 />
               </div>
             </form>
@@ -184,6 +184,19 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
                 />
               </div>
             </form>
+            <form>
+            <div className="form-group">
+              <label htmlFor="currency">Liquidity Lock Percentage</label>
+              <select
+                className="form-select  preinput"
+                aria-label="Default select example"
+              >
+                <option>45% to 100%</option>
+                <option>50% to 100%</option>
+                <option>60% to 100%</option>
+              </select>
+            </div>
+            </form>
           </div>
 
           <div className="col-12 col-md-6 col-lg-6 col-xl-6">
@@ -197,7 +210,7 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
                 <input
                   type="date"
                   className="form-control preinput"
-                  placeholder="  3 BSC"
+                  placeholder="  3 BNB"
                 />
               </div>
             </form>
@@ -232,6 +245,19 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
              
             </div>
             
+            </form>
+            <form>
+              <div className="form-group mt-2">
+                <label for="exampleInputEmail1">
+                  Lock up Period in days <span style={{ color: "red" }}>*</span>
+                </label>
+                <input
+                  type="number"
+                  className="form-control preinput"
+                  id="exampleInputEmail1"
+                  placeholder="460"
+                />
+              </div>
             </form>
           </div>
         </div>

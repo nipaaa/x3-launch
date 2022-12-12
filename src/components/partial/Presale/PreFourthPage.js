@@ -20,7 +20,8 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
                   className="form-control preinput"
                   id="exampleInputEmail1"
                   value="/favicon.ico"
-                  placeholder="  5 BSC"
+                  placeholder="  5 BNB"
+                  required
                 />
                 <input name="upload Logo" type="file" />
               </div>
@@ -33,7 +34,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Banner URL <span style={{ color: "red" }}>*</span>
+                  Banner URL
                 </label>
                 <input
                   type="text"
@@ -54,7 +55,8 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             type="text"
             className="form-control preinput"
             id="exampleInputEmail1"
-            placeholder="  3 BSC"
+            placeholder="  3 BNB"
+            required
           />
         </div>
 
@@ -70,6 +72,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
                   className="form-control preinput"
                   id="exampleInputEmail1"
                   placeholder=""
+                  required
                 />
               </div>
             </form>
@@ -79,7 +82,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Promo Video <span style={{ color: "red" }}>*</span>
+                  Promo Video 
                 </label>
                 <input
                   type="text"
@@ -97,7 +100,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  coinHunt.cc<span style={{ color: "red" }}>*</span>
+                  coinHunt.cc
                 </label>
                 <input
                   type="text"
@@ -120,6 +123,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
                   className="form-control preinput"
                   id="exampleInputEmail1"
                   placeholder="Ex :"
+                  required
                 />
               </div>
             </form>
@@ -131,7 +135,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  directoapp<span style={{ color: "red" }}>*</span>
+                  directoapp
                 </label>
                 <input
                   type="text"
@@ -147,41 +151,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Twitter <span style={{ color: "red" }}>*</span>
-                </label>
-                <input
-                  type="text"
-                  className="form-control preinput"
-                  id="exampleInputEmail1"
-                  placeholder="Ex :"
-                />
-              </div>
-            </form>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
-            <form>
-              <div className="form-group">
-                <label for="exampleInputEmail1">
-                  Github<span style={{ color: "red" }}>*</span>
-                </label>
-                <input
-                  type="text"
-                  className="form-control preinput"
-                  id="exampleInputEmail1"
-                  placeholder="Ex :"
-                />
-              </div>
-            </form>
-          </div>
-
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
-            <form>
-              <div className="form-group">
-                <label for="exampleInputEmail1">
-                  Telegram <span style={{ color: "red" }}>*</span>
+                  Twitter 
                 </label>
                 <input
                   type="text"
@@ -199,7 +169,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Instagram<span style={{ color: "red" }}>*</span>
+                  Github
                 </label>
                 <input
                   type="text"
@@ -215,7 +185,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Discord <span style={{ color: "red" }}>*</span>
+                  Telegram 
                 </label>
                 <input
                   type="text"
@@ -233,7 +203,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Reddit<span style={{ color: "red" }}>*</span>
+                  Instagram
                 </label>
                 <input
                   type="text"
@@ -249,7 +219,41 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Medium <span style={{ color: "red" }}>*</span>
+                  Discord 
+                </label>
+                <input
+                  type="text"
+                  className="form-control preinput"
+                  id="exampleInputEmail1"
+                  placeholder="Ex :"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+            <form>
+              <div className="form-group">
+                <label for="exampleInputEmail1">
+                  Reddit
+                </label>
+                <input
+                  type="text"
+                  className="form-control preinput"
+                  id="exampleInputEmail1"
+                  placeholder="Ex :"
+                />
+              </div>
+            </form>
+          </div>
+
+          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+            <form>
+              <div className="form-group">
+                <label for="exampleInputEmail1">
+                  Medium 
                 </label>
                 <input
                   type="text"
@@ -273,6 +277,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
               className="form-control preinput"
               id="exampleInputEmail1"
               placeholder="Ex :"
+              required
             ></textarea>
           </div>
         </form>

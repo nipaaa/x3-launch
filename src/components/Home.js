@@ -81,7 +81,7 @@ const Home = () => {
                             fontWeight: "bold",
                           }}
                         >
-                          BSC
+                          BNB
                         </div>
                       </div>
                     </Link>
@@ -122,7 +122,7 @@ const Home = () => {
                             fontWeight: "bold",
                           }}
                         >
-                          BSC
+                          BNB
                         </div>
                       </div>
                     </Link>
@@ -160,7 +160,7 @@ const Home = () => {
                             fontWeight: "bold",
                           }}
                         >
-                          BSC
+                          BNB
                         </div>
                       </div>
                     </Link>
@@ -203,7 +203,7 @@ const Home = () => {
                             fontWeight: "bold",
                           }}
                         >
-                          BSC
+                          BNB
                         </div>
                       </div>
                     </Link>
@@ -241,7 +241,7 @@ const Home = () => {
                             fontWeight: "bold",
                           }}
                         >
-                          BSC
+                          BNB
                         </div>
                       </div>
                     </Link>
@@ -281,14 +281,16 @@ const Home = () => {
                             fontWeight: "bold",
                           }}
                         >
-                          BSC
+                          BNB
                         </div>
                       </div>
                     </Link>
                   </div>
                 </div>
               </Carousel>
-              <Link to="/projects" type="button" class="btn btn-secondary">View All</Link>
+              <Link to="/projects" type="button" class="btn btn-secondary">
+                View All
+              </Link>
             </div>
 
             <div className="home_contributaion">
@@ -356,7 +358,6 @@ const Home = () => {
               style={{
                 textAlign: "center",
                 fontSize: "30px",
-                marginTop: "30px",
               }}
             >
               x3Launch gives projects early access to offer presale and build

@@ -14,7 +14,7 @@ const PreFourthPage = ({pdn3, pBtn3})=>{
      <form>
 <div className="form-group">
 <label for="exampleInputEmail1">Logo URL <span style={{color:"red"}}>*</span></label>
-<input type="text" className="form-control preinput" id="exampleInputEmail1" value="/favicon.ico"  placeholder="  5 BSC"/>
+<input type="text" className="form-control preinput" id="exampleInputEmail1" value="/favicon.ico"  placeholder="  5 BNB"/>
 <input name="upload Logo" type="file"/>
 </div>
 
@@ -49,7 +49,7 @@ const PreFourthPage = ({pdn3, pBtn3})=>{
     </div>
     <div className="form-group">
 <label for="exampleInputEmail1">Category <span style={{color:"red"}}>*</span></label>
-<input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder="  3 BSC"/>
+<input type="text" className="form-control preinput" id="exampleInputEmail1"  placeholder="  3 BNB"/>
 </div>
 
 

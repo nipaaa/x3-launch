@@ -26,12 +26,12 @@ const PreFive = ({pdn4, pBtn4})=>{
          
           <div className="dataWrap">
             <span>Softcap</span>
-            <span>10 BSC</span>
+            <span>10 BNB</span>
           </div>
 
           <div className="dataWrap">
             <span>Hardcap</span>
-            <span>20 BSC</span>
+            <span>20 BNB</span>
           </div>
 
 

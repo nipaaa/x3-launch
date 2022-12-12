@@ -22,7 +22,7 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
                   className="form-control preinput"
                   id="exampleInputEmail1"
                   value="/favicon.ico"
-                  placeholder="  5 BSC"
+                  placeholder="  5 BNB"
                 />
                 <input name="upload Logo" type="file" />
               </div>
@@ -60,7 +60,7 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
                   className="form-control preinput"
                   id="exampleInputEmail1"
                   value="Ex. NFT collection.PNG"
-                  placeholder="  5 BSC"
+                  placeholder="  5 BNB"
                 />
                 <input name="upload Logo" type="file" />
                 <button className="px-2" type="">

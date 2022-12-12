@@ -13,13 +13,13 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Softcap BSC <span style={{ color: "red" }}>*</span>
+                  Softcap BNB <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   type="text"
                   className="form-control preinput"
                   id="exampleInputEmail1"
-                  placeholder="  5 BSC"
+                  placeholder="  5 BNB"
                 />
               </div>
             </form>
@@ -31,13 +31,13 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Hardcap BSC <span style={{ color: "red" }}>*</span>
+                  Hardcap BNB <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   type="text"
                   className="form-control preinput"
                   id="exampleInputEmail1"
-                  placeholder=" 0.3 BSC"
+                  placeholder=" 0.3 BNB"
                 />
               </div>
             </form>
@@ -50,13 +50,13 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Buy BSC <span style={{ color: "red" }}>*</span>
+                  Buy BNB <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   type="text"
                   className="form-control preinput"
                   id="exampleInputEmail1"
-                  placeholder="  0.3 BSC"
+                  placeholder="  0.3 BNB"
                 />
               </div>
             </form>
@@ -68,13 +68,13 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">
-                  Buy BSC <span style={{ color: "red" }}>*</span>
+                  Buy BNB <span style={{ color: "red" }}>*</span>
                 </label>
                 <input
                   type="text"
                   className="form-control preinput"
                   id="exampleInputEmail1"
-                  placeholder="  3 BSC"
+                  placeholder="  3 BNB"
                 />
               </div>
             </form>
@@ -93,7 +93,7 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
                   type="date"
                   className="form-control preinput"
                   id="exampleInputEmail1"
-                  placeholder="  0.3 BSC"
+                  placeholder="  0.3 BNB"
                 />
               </div>
             </form>
@@ -110,7 +110,7 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
                 <input
                   type="date"
                   className="form-control preinput"
-                  placeholder="  3 BSC"
+                  placeholder="  3 BNB"
                 />
               </div>
             </form>
@@ -125,7 +125,7 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
             <input
               type="text"
               className="form-control preinput"
-              placeholder="  0.3 BSC"
+              placeholder="  0.3 BNB"
             />
           </div>
         </form>

@@ -40,7 +40,7 @@ const Projects = () => {
                             fontWeight: "bold",
                           }}
                         >
-                          BSC
+                          BNB
                         </div>
                       </div>
                     </Link>
@@ -82,7 +82,7 @@ const Projects = () => {
                             fontWeight: "bold",
                           }}
                         >
-                          BSC
+                          BNB
                         </div>
                       </div>
                     </Link>
@@ -120,7 +120,7 @@ const Projects = () => {
                             fontWeight: "bold",
                           }}
                         >
-                          BSC
+                          BNB
                         </div>
                       </div>
                     </Link>
