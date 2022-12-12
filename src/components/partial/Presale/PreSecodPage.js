@@ -99,9 +99,6 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
             raised + 1.5% token raised
           </h6>
 
-          {/* <button onClick={() => setStepNo(1)} className="nextBtn">
-            Next
-          </button> */}
           <button
             onClick={() => {
               pBtn();
@@ -110,6 +107,63 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
           >
             Next
           </button>
+
+          {/* <!-- Button trigger modal --> */}
+          <button
+            type="button"
+            className="nextBtn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Next
+          </button>
+
+          {/* <!-- Modal --> */}
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header border-0">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body border-0">
+                  Once your project launch profile is created you will not be
+                  able to revise your creation. We highly recommend using the
+                  testnet before finalization
+                </div>
+                <div class="modal-footer border-0">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="button"
+                    data-bs-dismiss="modal"
+                    onClick={() => {
+                      pBtn();
+                      
+                    }}
+                    className="btn btn-primary"
+                  >
+                    Next
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </Dat.Provider>
     </>
