@@ -16,11 +16,23 @@ const PreFive = ({ pdn4, pBtn4, pBtn4Back }) => {
           <span>Factory address</span>
           <span>0xD1B69676907Bb62762Ce2948c8F961D9a75b5BAD</span>
         </div>
-
         <div className="dataWrap">
-          <span>Private Sale Name</span>
+          <span>Token Name</span>
           <span>Name</span>
         </div>
+        <div className="dataWrap">
+          <span>Decimals</span>
+          <span>9</span>
+        </div>
+        <div className="dataWrap">
+          <span>Symbol</span>
+          <span>DRTP</span>
+        </div>
+
+        {/* <div className="dataWrap">
+          <span>Private Sale Name</span>
+          <span>Name</span>
+        </div> */}
 
         <div className="dataWrap">
           <span>Sale method</span>
@@ -53,11 +65,19 @@ const PreFive = ({ pdn4, pBtn4, pBtn4Back }) => {
         </div>
         <div className="dataWrap">
           <span>Vesting Period</span>
-          <span>3 Minutes</span>
+          <span>90 days</span>
         </div>
         <div className="dataWrap">
           <span>Release Each Vesting Cycle</span>
           <span>20%</span>
+        </div>
+        <div className="dataWrap">
+          <span>Liquidity Lock</span>
+          <span>45% 460 Days</span>
+        </div>
+        <div className="dataWrap">
+          <span> Lock Period</span>
+          <span>45% 460 Days</span>
         </div>
         <div className="d-flex">
           <button onClick={() => pBtn4Back()} className="nextBtn me-3">
