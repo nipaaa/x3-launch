@@ -277,7 +277,7 @@ const Nav = () => {
               </div>
             </div>
 
-            <div className=" mt-5">
+            <div className="">
               <div className="border-1 p-2">
                 <p className="lh-sm disclaimer">
                   <span className="fw-bold me-1">Disclaimer:</span>

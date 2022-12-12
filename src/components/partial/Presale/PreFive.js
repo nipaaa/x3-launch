@@ -73,11 +73,11 @@ const PreFive = ({ pdn4, pBtn4, pBtn4Back }) => {
         </div>
         <div className="dataWrap">
           <span>Liquidity Lock</span>
-          <span>45% 460 Days</span>
+          <span>45%  460 Days</span>
         </div>
         <div className="dataWrap">
           <span> Lock Period</span>
-          <span>45% 460 Days</span>
+          <span>45%  460 Days</span>
         </div>
         <div className="d-flex">
           <button onClick={() => pBtn4Back()} className="nextBtn me-3">
