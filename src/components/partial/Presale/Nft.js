@@ -1,15 +1,15 @@
-import React, { useContext, useEffect, useState } from 'react';
-import Nav from '../Nav';
-import WalNav from '../WalNav';
-import NftCollection from './NftCollection';
-import NftProgressbar from './NftProgressbar';
-import PreFive from './PreFive';
-import PreFourthPage from './PreFourthPage';
-import PreSecondPage, { Dat } from './PreSecodPage';
-import PreThirdPage from './PreThirdPage';
-import PresaleProgress from './ProgressBar';
+import React, { useContext, useEffect, useState } from "react";
+import Nav from "../Nav";
+import WalNav from "../WalNav";
+import NftCollection from "./NftCollection";
+import NftProgressbar from "./NftProgressbar";
+import PreFive from "./PreFive";
+import PreFourthPage from "./PreFourthPage";
+import PreSecondPage, { Dat } from "./PreSecodPage";
+import PreThirdPage from "./PreThirdPage";
+import PresaleProgress from "./ProgressBar";
 
-const Nft = ({setProjectNo}) => {
+const Nft = ({ setProjectNo }) => {
   const colora = "#11b1F5";
   const colorb = "rgb(35, 196, 3)";
   const colort = "#fff";
@@ -110,8 +110,9 @@ const Nft = ({setProjectNo}) => {
     // setBg3(colorb);
     setTc3(colort);
     setPdn1(dnone);
-    setPdn3(dblock);
+    setPdn3(dnone);
     setPdn4(dnone);
+    setNft(dblock);
   };
 
   const rdata = useContext(Dat);
