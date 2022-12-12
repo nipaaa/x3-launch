@@ -331,7 +331,7 @@ const Home = () => {
               style={{
                 textAlign: "center",
                 fontSize: "30px",
-                marginTop: "30px",
+                marginTop: "20px",
               }}
             >
               Support innovative projects in the Blockchain ecosystem
@@ -339,7 +339,7 @@ const Home = () => {
 
             <div
               className="homecreate"
-              style={{ padding: "40px 0px", textAlign: "center" }}
+              style={{ padding: "30px 0px", textAlign: "center" }}
             >
               <Link
                 to="/privatesale"
