@@ -33,7 +33,7 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
     <>
       <Dat.Provider value={datas}>
         <div
-          className="col-12 col-md-8 col-lg-8 col-xl-8  rightPresale"
+          className="col-12 col-md-8 col-lg-8 col-xl-8  rightPresale rightpresalem"
           style={{ display: pdn }}
         >
           <p>{"(*)"} is required field.1</p>

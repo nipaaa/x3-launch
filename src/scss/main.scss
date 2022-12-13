@@ -293,6 +293,10 @@ h1.homeHeading {
     align-items: start;
 }
 
+
+.rightpresalem{
+    margin-bottom: 150px;
+}
 .rightPresale {
     flex-direction: column;
     padding-top: 20px;
@@ -300,7 +304,7 @@ h1.homeHeading {
     border: 1px solid rgb(119, 115, 115);
     border-radius: 15px;
     padding-bottom: 30px;
-    margin-bottom: 150px;
+    // margin-bottom: 150px;
 
     .preinput {
         height: 46px;

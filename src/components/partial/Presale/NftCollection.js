@@ -6,7 +6,7 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
   return (
     <>
       <div
-        className="col-12 col-md-8 col-lg-8 col-xl-8  rightPresale"
+        className="col-12 col-md-8 col-lg-8 col-xl-8  rightPresale rightpresalem"
         style={{ display: nft }}
       >
         <div className="row">
