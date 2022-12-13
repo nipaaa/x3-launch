@@ -211,7 +211,7 @@ const WalNav = () => {
               </div>
             </div>
 
-            <div className="accordion-item">
+            {/* <div className="accordion-item">
               <h2 className="accordion-header" id="headingThree">
                 <button
                   className="accordion-button collapsed"
@@ -242,9 +242,41 @@ const WalNav = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
+               <div className="accordion-item">
+                <h2 className="accordion-header" id="headingThree">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree1"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <i
+                      className="fa-solid fa-tablet-screen-button"
+                      style={{ marginRight: "10px", color: "#11b1F5" }}
+                    ></i>{" "}
+                    NFT Launch
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree1"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <ul className="navSubLink">
+                      <li>
+                        <Link to="/nft">Create NFT presale</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
-            <div className="accordion-item">
+            {/* <div className="accordion-item">
               <h2 className="accordion-header" id="headingThree">
                 <button
                   className="accordion-button collapsed"
@@ -275,9 +307,9 @@ const WalNav = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="accordion-item">
+            {/* <div className="accordion-item">
               <h2 className="accordion-header" id="headingThree">
                 <button
                   className="accordion-button collapsed"
@@ -314,9 +346,9 @@ const WalNav = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="accordion-item">
+            {/* <div className="accordion-item">
               <h2 className="accordion-header" id="headingThree">
                 <button
                   className="accordion-button collapsed"
@@ -350,7 +382,7 @@ const WalNav = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="accordion-item">
               <h2 id="headingThree">
@@ -401,6 +433,23 @@ const WalNav = () => {
               <Link to="/">
                 <img src="images/t.png" alt="twiterr" />
               </Link>
+            </div>
+
+
+
+            <div className="">
+              <div className="border-1 p-2">
+                <p className="lh-sm disclaimer">
+                  <span className="fw-bold me-1">Disclaimer:</span>
+                  The details provided are not considered recommendations. We do
+                  not give any financial advice, or advice to invest. We are not
+                  liable for any loss, or in charge of any projects offered. We
+                  advise you to do your research. We do not accept liability for
+                  any investment, gain, or loss associated with any person
+                  acting or abstaining from any information or material
+                  provided.{" "}
+                </p>
+              </div>
             </div>
           </div>
         </div>
