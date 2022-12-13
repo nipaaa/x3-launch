@@ -1,13 +1,6 @@
 import React, { useReducer, useState, createContext } from "react";
 
-const options = [
-  {
-    option: "BNB",
-  },
-  {
-    option: "SOL",
-  },
-];
+
 
 export const Dat = createContext();
 const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
@@ -25,9 +18,7 @@ const PreSecondPage = ({ pdn, pBtn, setStepNo, setProjectNo }) => {
     });
   };
 
-  const selectHandler = (e) => {
-    setSelected(e.target.value);
-  };
+
 
   return (
     <>

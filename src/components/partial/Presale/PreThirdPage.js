@@ -7,8 +7,18 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
     },
     {
       option: "Pancakeswap DEX",
-    }
+    },
   ];
+
+  function ppp () {
+    for (let i = 45; i <= 100; i++) {
+      const element = i;
+
+      return element;
+    }
+  };
+  
+  
   return (
     <>
       <div
@@ -185,21 +195,22 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
               </div>
             </form>
             <form>
-            <div className="form-group">
-              <label htmlFor="currency">Liquidity Lock Percentage</label>
-              <select
-                className="form-select  preinput"
-                aria-label="Default select example"
-              >
-                <option>45%</option>
-                <option>55%</option>
+              <div className="form-group">
+                <label htmlFor="currency">Liquidity Lock Percentage</label>
+                <select
+                  className="form-select  preinput"
+                  aria-label="Default select example"
+                >
+                
+                  {/* <option> {this.ppp()}</option> */}
+                  {/* <option>55%</option>
                 <option>65%</option>
                 <option>75%</option>
                 <option>85%</option>
                 <option>95%</option>
-                <option>100%</option>
-              </select>
-            </div>
+                <option>100%</option> */}
+                </select>
+              </div>
             </form>
           </div>
 
@@ -233,22 +244,26 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
               </div>
             </form>
             <form>
-             
-               <div className="form-group mt-2">
-              <label for="currency"> Select Dex <span style={{ color: "red" }}>*</span> (Liquidity
-                  automatically added)</label>
-              <select
-                className="form-select  preinput"
-                aria-label="Default select example"
-              
-              >  {options.map((op, index) => (
-                <option> <input type="radio" /> <i class="fa-regular fa-circle"></i> {op.option}</option>
-              ))}
-             
-              </select>
-             
-            </div>
-            
+              <div className="form-group mt-2">
+                <label for="currency">
+                  {" "}
+                  Select Dex <span style={{ color: "red" }}>*</span> (Liquidity
+                  automatically added)
+                </label>
+                <select
+                  className="form-select  preinput"
+                  aria-label="Default select example"
+                >
+                  {" "}
+                  {options.map((op, index) => (
+                    <option>
+                      {" "}
+                      <input type="radio" />{" "}
+                      <i class="fa-regular fa-circle"></i> {op.option}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </form>
             <form>
               <div className="form-group">

@@ -3,6 +3,7 @@ import Nav from "../Nav";
 import WalNav from "../WalNav";
 import NftCollection from "./NftCollection";
 import NftProgressbar from "./NftProgressbar";
+import NftSecond from "./NftSecond";
 import PreFive from "./PreFive";
 import PreFourthPage from "./PreFourthPage";
 import PreSecondPage, { Dat } from "./PreSecodPage";
@@ -143,7 +144,7 @@ const Nft = ({ setProjectNo }) => {
                 textColor3={tc3}
               />
             </div>
-            <PreSecondPage setProjectNo={setProjectNo} pdn={pdn} pBtn={pBtn} />
+            <NftSecond setProjectNo={setProjectNo} pdn={pdn} pBtn={pBtn} />
             <PreThirdPage
               pdn1={pdn1}
               pBtnBack={pBtnBack}

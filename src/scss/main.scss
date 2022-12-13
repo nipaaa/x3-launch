@@ -691,6 +691,9 @@ h3.logot {
     display: none;
     color: transparent;
 }
+.react-multi-carousel-dot--active button {
+    background-color: gray !important;
+}
 
 // .modal-backdrop{
 //     --bs-backdrop-bg: transparent !important;
