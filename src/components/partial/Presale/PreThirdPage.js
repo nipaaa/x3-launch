@@ -191,9 +191,13 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
                 className="form-select  preinput"
                 aria-label="Default select example"
               >
-                <option>45% to 100%</option>
-                <option>50% to 100%</option>
-                <option>60% to 100%</option>
+                <option>45%</option>
+                <option>55%</option>
+                <option>65%</option>
+                <option>75%</option>
+                <option>85%</option>
+                <option>95%</option>
+                <option>100%</option>
               </select>
             </div>
             </form>
