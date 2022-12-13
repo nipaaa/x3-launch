@@ -55,7 +55,7 @@ const PreFourthPage = ({ pdn3, pBtn3Back, pBtn3 }) => {
             type="text"
             className="form-control preinput"
             id="exampleInputEmail1"
-            placeholder="  3 BNB"
+            placeholder="Token Presale"
             required
           />
         </div>

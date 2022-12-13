@@ -11,7 +11,7 @@ const Projects = () => {
 
         <section className="home_contents">
           <WalNav />
-          <div className="home_second_wrap  row my-5">
+          <div className="home_second_wrap row my-5 mx-0">
                 <div className="col-12 col-md-4 col-lg-4 col-xl-4">
                  <div className='row'>
                  <div className="col-11 col-md-11 col-lg-11 col-xl-11  home_s_box m-auto">
@@ -49,7 +49,6 @@ const Projects = () => {
                   </div>
                  </div>
                 </div>
-
                 <div className="col-12 col-md-4 col-lg-4 col-xl-4">
                   <div className='row'>
                     
@@ -134,7 +133,7 @@ const Projects = () => {
                   </div>
                   </div>
                 </div>
-              </div>
+            </div>
         </section>
       </div>
     </>
