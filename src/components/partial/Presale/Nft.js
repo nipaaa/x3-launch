@@ -4,6 +4,7 @@ import WalNav from "../WalNav";
 import NftCollection from "./NftCollection";
 import NftProgressbar from "./NftProgressbar";
 import NftSecond from "./NftSecond";
+import NftThird from "./NftThird";
 import PreFive from "./PreFive";
 import PreFourthPage from "./PreFourthPage";
 import PreSecondPage, { Dat } from "./PreSecodPage";
@@ -49,9 +50,9 @@ const Nft = ({ setProjectNo }) => {
     // setBg2(colorb);
     setPdn(dnone);
     setTc2(colort);
-    setPdn1(dnone);
+    setPdn1(dblock);
     setNft(dnone);
-    setPdn3(dblock);
+    setPdn3(dnone);
   };
   const pBtn = () => {
     setBg(colorb);
@@ -73,7 +74,7 @@ const Nft = ({ setProjectNo }) => {
     setPdn(dnone);
     setTc2(colort);
     setPdn1(dnone);
-    setPdn3(dblock);
+    setNft(dblock);
   };
   const pBtnBack = () => {
     setBg1(colora);
@@ -85,22 +86,6 @@ const Nft = ({ setProjectNo }) => {
   };
   const [bg3, setBg3] = useState(colora2);
   const [tc3, setTc3] = useState(colortb);
-  const pBtn3 = () => {
-    setBg2(colorb);
-    setBg3(colora);
-    setTc3(colort);
-    setPdn3(dnone);
-    // setPdn4(dblock);
-    setNft(dblock);
-  };
-  const pBtn3Back = () => {
-    setBg2(colora);
-    // setBg3(colorb);
-    setTc3(colort);
-    setPdn1(dblock);
-    setPdn3(dnone);
-    setPdn4(dnone);
-  };
   const pBtn4 = () => {
     setBg2(colorb);
     setBg3(colora);
@@ -145,13 +130,11 @@ const Nft = ({ setProjectNo }) => {
               />
             </div>
             <NftSecond setProjectNo={setProjectNo} pdn={pdn} pBtn={pBtn} />
-            <PreThirdPage
+            <NftThird
               pdn1={pdn1}
               pBtnBack={pBtnBack}
               pBtn1={() => pBtn1()}
             />
-
-            <PreFourthPage pdn3={pdn3} pBtn3Back={pBtn3Back} pBtn3={pBtn3} />
             <NftCollection nft={nft} pNftBack={pNftBack} pNft={pNft} />
 
             <PreFive pdn4={pdn4} pBtn4Back={pBtn4Back} pBtn4={() => pBtn4()} />

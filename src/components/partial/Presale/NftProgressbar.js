@@ -1,5 +1,3 @@
-
-
 import React from "react";
 
 const NftProgressbar = ({
@@ -44,13 +42,6 @@ const NftProgressbar = ({
           >
             4
           </div>
-          <div
-            className="p1"
-            id="p5"
-            style={{ background: bgcolor3, color: textColor3 }}
-          >
-            5
-          </div>
         </div>
         <div className="pbox">
           <div className="pc1">
@@ -63,10 +54,6 @@ const NftProgressbar = ({
             <p>Enter the launchpad information</p>
           </div>
 
-          <div className="pc1">
-            <h5>Add Additional Info</h5>
-            <p>Short description about your project and project links</p>
-          </div>
           <div className="pc1">
             <h5>Add NFT Collection</h5>
             <p>Upload your json file with Nft Collection</p>
