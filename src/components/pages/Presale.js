@@ -7,8 +7,7 @@ import PreThirdPage from "../partial/Presale/PreThirdPage";
 import PreFourthPage from "../partial/Presale/PreFourthPage";
 import PreFive from "../partial/Presale/PreFive";
 import { Dat } from "../partial/Presale/PreSecodPage";
-import Nft from "../partial/Presale/Nft";
-import { Button } from "bootstrap";
+
 
 const Presale = ({ setProjectNo }) => {
   const colora = "#11b1F5";
