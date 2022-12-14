@@ -6,10 +6,8 @@ import NftProgressbar from "./NftProgressbar";
 import NftSecond from "./NftSecond";
 import NftThird from "./NftThird";
 import PreFive from "./PreFive";
-import PreFourthPage from "./PreFourthPage";
-import PreSecondPage, { Dat } from "./PreSecodPage";
-import PreThirdPage from "./PreThirdPage";
-import PresaleProgress from "./ProgressBar";
+import  { Dat } from "./PreSecodPage";
+
 
 const Nft = ({ setProjectNo }) => {
   const colora = "#11b1F5";
@@ -38,18 +36,17 @@ const Nft = ({ setProjectNo }) => {
   const [pdn4, setPdn4] = useState(dnone);
 
   const pNft = () => {
-    setBg(colora);
-    setBg1(colorb);
+    setBg2(colorb);
+    setBg3(colora);
+    setTc3(colort);
     setNft(dnone);
-    setTc1(colort);
     setPdn3(dnone);
     setPdn4(dblock);
   };
   const pNftBack = () => {
-    setBg1(colora);
-    // setBg2(colorb);
-    setPdn(dnone);
-    setTc2(colort);
+    setBg2(colora);
+    // setBg3(colorb);
+    setTc3(colort);
     setPdn1(dblock);
     setNft(dnone);
     setPdn3(dnone);
