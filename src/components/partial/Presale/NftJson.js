@@ -16,7 +16,7 @@ const NftJson = () => {
           <div data-bs-toggle="modal" data-bs-target="#exampleModal">
             <div className="shadow p-2">
               <img
-                style={{ height: "260px", objectFit: "cover" }}
+                style={{ height: "200px", objectFit: "cover" }}
                 className=" w-100 img-fluid"
                 src={nft.pic}
                 alt=""
