@@ -56,7 +56,7 @@ const NftProgressbar = ({
 
           <div className="pc1">
             <h5>Add NFT Collection</h5>
-            <p>Upload your json file with Nft Collection</p>
+            <p>Upload your json file with NFT Collection</p>
           </div>
 
           <div className="pc1">

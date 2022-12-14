@@ -70,9 +70,9 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
 
           <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <p></p>
-            <p className="fw-bold">
-              Double Check before finalizing. Once completed you will not be
-              able to fix your launchpad profile. *
+            <p>
+              Double Check your file before finalizing. Once completed you will not be
+              able to fix your NFT launch profile.
             </p>
           </div>
         </div>
