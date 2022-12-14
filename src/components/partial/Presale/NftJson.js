@@ -9,19 +9,19 @@ const NftJson = () => {
       .then((data) => setNftPic(data));
   }, []);
   return (
-    <div className="row g-5 mt-5">
+    <div className="row g-3 mt-5">
       {nftPic.map((nft) => (
-        <div className="col-12 col-md-6 col-lg-4" key={nft.id}>
+        <div className="col-12 col-md-6 col-lg-3" key={nft.id}>
           {/* <!-- Button trigger modal --> */}
           <div data-bs-toggle="modal" data-bs-target="#exampleModal">
             <div className="shadow p-2">
               <img
-                style={{ height: "300px", objectFit: "cover" }}
+                style={{ height: "260px", objectFit: "cover" }}
                 className=" w-100 img-fluid"
                 src={nft.pic}
                 alt=""
               />
-              <div className="d-flex justify-content-between fw-bold mt-2">
+              <div className="d-flex justify-content-between text-primary fw-bold pt-2 px-4">
                 <p>{nft.id}.</p>
                 <p className=""> {nft.price} BNB</p>
               </div>

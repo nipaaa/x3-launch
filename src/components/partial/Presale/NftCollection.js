@@ -2,7 +2,6 @@ import React from "react";
 import NftJson from "./NftJson";
 
 const NftCollection = ({ nft, pNftBack, pNft }) => {
- 
   return (
     <>
       <div
@@ -59,10 +58,9 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
                   type="text"
                   className="form-control preinput"
                   id="exampleInputEmail1"
-                  value="Ex. NFT collection.PNG"
-                  placeholder="  5 BNB"
+                  placeholder="Ex. NFT collection.PNG"
                 />
-                <input name="upload Logo" type="file" />
+                <input name="upload Logo" type="file"  accept="application/json" />
                 <button className="px-2" type="">
                   Delete File
                 </button>
@@ -80,7 +78,7 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
         </div>
 
         <div>
-       <NftJson/>
+          <NftJson />
         </div>
 
         <div className="d-flex">

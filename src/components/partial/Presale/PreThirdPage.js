@@ -9,16 +9,12 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
       option: "Pancakeswap DEX",
     },
   ];
+  const select = [];
 
-  function ppp () {
-    for (let i = 45; i <= 100; i++) {
-      const element = i;
+  for (let i = 45; i <= 100; i++) {
+    select.push(i);
+  }
 
-      return element;
-    }
-  };
-  
-  
   return (
     <>
       <div
@@ -201,14 +197,9 @@ const PreThirdPage = ({ pdn1, pBtnBack, pBtn1 }) => {
                   className="form-select  preinput"
                   aria-label="Default select example"
                 >
-                
-                  {/* <option> {this.ppp()}</option> */}
-                  {/* <option>55%</option>
-                <option>65%</option>
-                <option>75%</option>
-                <option>85%</option>
-                <option>95%</option>
-                <option>100%</option> */}
+                  {select.map((a, index) => (
+                    <option key={index}>{a}</option>
+                  ))}
                 </select>
               </div>
             </form>
