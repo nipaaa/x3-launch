@@ -10,45 +10,6 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
       >
         <div className="row">
           <div className="col-12 col-md-6 col-lg-6 col-xl-6">
-            <p>{"(*)"} is required field.</p>
-            <form>
-              <div className="form-group">
-                <label for="exampleInputEmail1">
-                  Logo URL <span style={{ color: "red" }}>*</span>
-                </label>
-                <input
-                  type="text"
-                  className="form-control preinput"
-                  id="exampleInputEmail1"
-                  value="/favicon.ico"
-                  placeholder="  5 BNB"
-                />
-                <input name="upload Logo" type="file" />
-              </div>
-            </form>
-          </div>
-
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
-            <p>.</p>
-
-            <form>
-              <div className="form-group">
-                <label for="exampleInputEmail1">
-                  Banner URL <span style={{ color: "red" }}>*</span>
-                </label>
-                <input
-                  type="text"
-                  className="form-control preinput"
-                  id="exampleInputEmail1"
-                  placeholder="Ex :"
-                />
-                <input name="upload Logo" type="file" />
-              </div>
-            </form>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12 col-md-6 col-lg-6 col-xl-6">
             <form>
               <div className="form-group">
                 <label for="exampleInputEmail1">

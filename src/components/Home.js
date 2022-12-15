@@ -288,7 +288,7 @@ const Home = () => {
                   </div>
                 </div>
               </Carousel>
-              <Link to="/projects" type="button" class="btn btn-secondary">
+              <Link to="/projects" style={{backgroundColor:"#dedcdc", fontSize:"12px"}} type="button" class="btn fw-bold">
                 View All
               </Link>
             </div>
