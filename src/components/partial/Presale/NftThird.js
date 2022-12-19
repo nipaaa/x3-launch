@@ -1,22 +1,45 @@
-import React from "react";
+import moment from "moment/moment";
+import React, { useEffect, useState } from "react";
 
 const NftThird = ({ pdn1, pBtnBack, pBtn1 }) => {
-  const options = [
-    {
-      option: "1 inch DEX",
-    },
-    {
-      option: "Pancakeswap DEX",
-    },
-  ];
-  const select = [];
+  const [startTime, setStartTime] = useState("");
+  const [endTime, setEndTime] = useState("");
+  const [daysDifference, setDaysDifference] = useState("")
 
+
+
+  console.log(startTime);
+  console.log(endTime);
+
+  // var time = moment(startTime, "DD/MM/YYYY");
+  // var time2 = moment(endTime, "DD/MM/YYYY");
+  var date1, date2;  
+  date1 = new Date(startTime);  
+  date2 = new Date(endTime);  
+
+  var time_difference =  date2.getTime() - date1.getTime();  
+  
+  //calculate days difference by dividing total milliseconds in a day  
+  var days_difference = time_difference / (1000 * 60 * 60 * 24);  
+  
+  useEffect(() => {setDaysDifference(days_difference)}, [days_difference])
+
+  console.log(days_difference, "days")
+
+  console.log(daysDifference)
+
+  //  console.log(time.diff(time2, "days") + " days");
+
+
+
+  const select = [];
   for (let i = 45; i <= 100; i++) {
     select.push(i);
   }
 
   return (
     <>
+    
       <div
         className="col-12 col-md-8 col-lg-8 col-xl-8  rightPresale rightpresalem"
         style={{ display: pdn1 }}
@@ -56,9 +79,14 @@ const NftThird = ({ pdn1, pBtnBack, pBtn1 }) => {
               <div className="form-group">
                 <p>{"(*)"} is required field.</p>
                 <label for="exampleInputEmail1">
-                  Start Time <span style={{ color: "red" }}>*</span> <span style={{fontSize:"12px"}}>(NFT collection will expire after 40 days)</span> 
+                  Start Time <span style={{ color: "red" }}>*</span>{" "}
+                  <span style={{ fontSize: "12px" }}>
+                    (NFT collection will expire after 40 days)
+                  </span>
                 </label>
                 <input
+                  value={startTime}
+                  onChange={(e) => setStartTime(e.target.value)}
                   type="date"
                   className="form-control preinput"
                   id="exampleInputEmail1"
@@ -116,12 +144,19 @@ const NftThird = ({ pdn1, pBtnBack, pBtn1 }) => {
             </form>
             <form>
               <div className="form-group">
+              {days_difference > 40 ? alert('Select date less than or equal to 40 days') : "" }
                 <p>.</p>
                 <label for="exampleInputEmail1">
-                  END Time <span style={{ color: "red" }}>*</span> <span style={{fontSize:"12px"}}>(The end date must not exceed 40 days from the start date)</span> 
+                  END Time <span style={{ color: "red" }}>*</span>{" "}
+                  <span style={{ fontSize: "12px" }}>
+                    (The end date must not exceed 40 days from the start date)
+                  </span>
                 </label>
                 <input
                   type="date"
+                  value={endTime}
+                  
+                  onChange={(e) => setEndTime(e.target.value)}
                   className="form-control preinput"
                   placeholder="  3 BNB"
                 />

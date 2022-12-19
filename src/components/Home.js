@@ -5,7 +5,10 @@ import WalNav from "./partial/WalNav";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+
 const Home = () => {
+
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -288,7 +291,12 @@ const Home = () => {
                   </div>
                 </div>
               </Carousel>
-              <Link to="/projects" style={{backgroundColor:"#dedcdc", fontSize:"12px"}} type="button" class="btn fw-bold">
+              <Link
+                to="/projects"
+                style={{ backgroundColor: "#dedcdc", fontSize: "12px" }}
+                type="button"
+                class="btn fw-bold"
+              >
                 View All
               </Link>
             </div>

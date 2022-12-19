@@ -6,8 +6,7 @@ import NftProgressbar from "./NftProgressbar";
 import NftSecond from "./NftSecond";
 import NftThird from "./NftThird";
 import PreFive from "./PreFive";
-import  { Dat } from "./PreSecodPage";
-
+import { Dat } from "./PreSecodPage";
 
 const Nft = ({ setProjectNo }) => {
   const colora = "#11b1F5";
@@ -100,7 +99,6 @@ const Nft = ({ setProjectNo }) => {
 
   const rdata = useContext(Dat);
 
-  console.log(rdata);
 
   useEffect(() => {
     setProjectNo("project1");
@@ -127,11 +125,7 @@ const Nft = ({ setProjectNo }) => {
               />
             </div>
             <NftSecond setProjectNo={setProjectNo} pdn={pdn} pBtn={pBtn} />
-            <NftThird
-              pdn1={pdn1}
-              pBtnBack={pBtnBack}
-              pBtn1={() => pBtn1()}
-            />
+            <NftThird pdn1={pdn1} pBtnBack={pBtnBack} pBtn1={() => pBtn1()} />
             <NftCollection nft={nft} pNftBack={pNftBack} pNft={pNft} />
 
             <PreFive pdn4={pdn4} pBtn4Back={pBtn4Back} pBtn4={() => pBtn4()} />
