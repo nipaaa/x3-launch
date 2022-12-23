@@ -13,6 +13,7 @@ const NftThird = ({ pdn1, pBtnBack, pBtn1 }) => {
 
   // var time = moment(startTime, "DD/MM/YYYY");
   // var time2 = moment(endTime, "DD/MM/YYYY");
+   //  console.log(time.diff(time2, "days") + " days");
   var date1, date2;  
   date1 = new Date(startTime);  
   date2 = new Date(endTime);  
@@ -28,7 +29,7 @@ const NftThird = ({ pdn1, pBtnBack, pBtn1 }) => {
 
   console.log(daysDifference)
 
-  //  console.log(time.diff(time2, "days") + " days");
+ 
 
 
 

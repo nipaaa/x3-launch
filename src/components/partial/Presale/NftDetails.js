@@ -4,15 +4,14 @@ import Nav from "../Nav";
 import WalNav from "../WalNav";
 
 const NftDetails = () => {
-    const { id } = useParams();
-    console.log(id);
-    const [nft,setNft] = useState([]);
-      useEffect(() => {
-        fetch("nft.json")
-          .then((res) => res.json())
-          .then((data) => setNft(data));
-      }, []);
-   
+  const { id } = useParams();
+  console.log(id);
+  const [nft, setNft] = useState([]);
+  useEffect(() => {
+    fetch("nft.json")
+      .then((res) => res.json())
+      .then((data) => setNft(data));
+  }, []);
 
   return (
     <>
@@ -24,18 +23,11 @@ const NftDetails = () => {
           <div className="container my-5">
             <div className="row g-5">
               <div className="col-12 col-md-6">
+                {nft.map((n) => {
+                  id === n.id ? <h1>{n.price}</h1> : <p></p>;
+                })}
 
-{
-    nft.map(n=>{id === n.id ? <h1>{n.price}</h1> : <p></p>})
-}
-
-
-
-                <img
-                  className="img-fluid"
-                  src={nft.pic}
-                  alt=""
-                />
+                <img className="img-fluid" src={nft.pic} alt="" />
                 <img
                   className="img-fluid"
                   src="https://i.seadn.io/gae/qwKgn-RNLfP9MwsI5Ugky7PjAnRgNh_DlR0-qeRS4Zx6npnYeNw7LbBFq23Yw1OZbvjPzDFYsoZIpEgkfhrp98SslGHFQbLjvXMun9k?auto=format&w=1000"

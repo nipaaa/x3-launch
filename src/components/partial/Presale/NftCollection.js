@@ -1,5 +1,6 @@
 import React from "react";
 import NftJson from "./NftJson";
+import NftModal from "./NftModal";
 
 const NftCollection = ({ nft, pNftBack, pNft }) => {
   return (
@@ -37,9 +38,9 @@ const NftCollection = ({ nft, pNftBack, pNft }) => {
             </p>
           </div>
         </div>
-
+        
         <div>
-          <NftJson />
+        <NftModal />
         </div>
 
         <div className="d-flex">

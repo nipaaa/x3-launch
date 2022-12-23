@@ -21,7 +21,10 @@ const NftJson = () => {
                 src={nft.pic}
                 alt=""
               />
-              <div style={{color:"#11b1f5"}} className="d-flex justify-content-between fw-bold pt-2 px-3">
+              <div
+                style={{ color: "#11b1f5" }}
+                className="d-flex justify-content-between fw-bold pt-2 px-3"
+              >
                 <p>{nft.id}.</p>
                 <p className=""> {nft.price} BNB</p>
               </div>
