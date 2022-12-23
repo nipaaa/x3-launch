@@ -44,7 +44,7 @@ const NftJson = () => {
                 <div class="modal-header border-0">
                   <button
                     type="button"
-                    class="btn-close mb-0 pb-0"
+                    class="btn-close"
                     data-bs-dismiss="modal"
                     aria-label="Close"
                   ></button>
@@ -52,11 +52,11 @@ const NftJson = () => {
                 <div class="modal-body">
                   <img
                     style={{ height: "300px" }}
-                    className=" w-100 img-fluid mt-0 pt-0"
+                    className=" w-100 img-fluid"
                     src={nft.pic}
                     alt=""
                   />
-                  <div className="d-flex justify-content-between fw-bold mt-2">
+                  <div        style={{ color: "#11b1f5" }} className="d-flex justify-content-between fw-bold mt-2">
                     <h2>{nft.id}.</h2>
                     <h2 className="">{nft.price} BNB</h2>
                   </div>
