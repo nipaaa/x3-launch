@@ -41,10 +41,10 @@ const NftJson = () => {
           >
             <div class="modal-dialog">
               <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header border-0">
                   <button
                     type="button"
-                    class="btn-close"
+                    class="btn-close mb-0 pb-0"
                     data-bs-dismiss="modal"
                     aria-label="Close"
                   ></button>
@@ -52,7 +52,7 @@ const NftJson = () => {
                 <div class="modal-body">
                   <img
                     style={{ height: "300px" }}
-                    className=" w-100 img-fluid"
+                    className=" w-100 img-fluid mt-0 pt-0"
                     src={nft.pic}
                     alt=""
                   />
@@ -60,40 +60,53 @@ const NftJson = () => {
                     <h2>{nft.id}.</h2>
                     <h2 className="">{nft.price} BNB</h2>
                   </div>
-                  <div className="mb-4">
-                    <p className="fw-bold m-0">Description:</p>
-                    <p>The cats are wild and we are the human who love them</p>
+                  <div className="mb-3">
+                    <p className="fw-bold m-0 p-0">Description:</p>
+                    <p className="p-0 m-0">
+                      The cats are wild and we are the human who love them
+                    </p>
                   </div>
-                  <div className="mb-4">
-                    <p className="fw-bold">Characteristics</p>
-                    <p>Blue eyes 100%</p>
-                    <p>Yellow Skin %</p>
-                    <p>grey background 90%</p>
+                  <div className="mb-3">
+                    <p className="fw-bold p-0 m-0">Characteristics</p>
+                    <p className="p-0 m-0">Blue eyes 100%</p>
+                    <p className="p-0 m-0">Yellow Skin %</p>
+                    <p className="p-0 m-0">grey background 90%</p>
                   </div>
-                  <div className="mb-4">
-                    <p className="fw-bold">End date:</p>
-                    <p>February 15, 2023</p>
+                  <div className="mb-3">
+                    <p className="fw-bold p-0 m-0">End date:</p>
+                    <p className="p-0 m-0">February 15, 2023</p>
                   </div>
-                  <div className="mb-4">
-                    <p className="fw-bold">Contract Address</p>
-                    <p className="text-primary">KHH 25 NHGFG</p>
+                  <div className="mb-3">
+                    <p className="fw-bold p-0 m-0">Contract Address</p>
+                    <p className="text-primary p-0 m-0">KHH 25 NHGFG</p>
                   </div>
-                  <div className="mb-4">
-                    <p className="fw-bold">Token ID:</p>
-                    <p>9</p>
+                  <div className="mb-3">
+                    <p className="fw-bold p-0 m-0">Token ID:</p>
+                    <p className="p-0 m-0">9</p>
                   </div>
-                  <div className="mb-4">
-                    <p className="fw-bold">Token Standard:</p>
-                    <p>Bep-20</p>
+                  <div className="mb-3">
+                    <p className="fw-bold p-0 m-0">Token Standard:</p>
+                    <p className="p-0 m-0">Bep-20</p>
                   </div>
-                  <div className="mb-4">
-                    <p className="fw-bold">Blockchain:</p>
-                    <p>Binance</p>
+                  <div className="mb-3">
+                    <p className="fw-bold p-0 m-0">Blockchain:</p>
+                    <p className="p-0 m-0">Binance</p>
                   </div>
-
-                  <button className="px-3 py-2 bg-white text-center" type="">
-                    Buy Now
-                  </button>
+                  <div className="text-center">
+                    <button
+                      style={{
+                        textDecoration: "none",
+                        padding: "8px 20px ",
+                        borderRadius: "10px",
+                        color: "#fff",
+                        background: "#11b1F5",
+                      }}
+                      className="border-0"
+                      type=""
+                    >
+                      Buy Now
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
