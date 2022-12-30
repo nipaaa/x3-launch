@@ -40,7 +40,7 @@ const NftModal = () => {
             aria-labelledby="exampleModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header border-0">
                   <button
@@ -50,52 +50,58 @@ const NftModal = () => {
                     aria-label="Close"
                   ></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body p-0">
                   <img
-                    style={{ height: "300px" }}
+                    style={{ height: "400px" }}
                     className=" w-100 img-fluid"
                     src={nft.pic}
                     alt=""
                   />
                   <div
                     style={{ color: "#11b1f5" }}
-                    className="d-flex justify-content-between fw-bold mt-2"
+                    className="d-flex justify-content-between fw-bold mt-3 px-5"
                   >
                     <h2>{nft.id}.</h2>
                     <h2 className="">{nft.price} BNB</h2>
                   </div>
-                  <div className="mb-3">
-                    <p className="fw-bold m-0">Description:</p>
-                    <p className="p-0 m-0">
-                      The cats are wild and we are the human who love them
-                    </p>
+                  <div className="p-4">
+               <div className="mb-5">
+                    <h4>
+                      <span className="fw-bold"> Description</span> The
+                      Rooster are wild and we are the human who love them.
+                      Roosternoids are the future if digital era.{" "}
+                    </h4>
                   </div>
-                  <div className="mb-3">
-                    <p className="fw-bold p-0 m-0">Characteristics</p>
-                    <p className="p-0 m-0">Blue eyes 100%</p>
-                    <p className="p-0 m-0">Yellow Skin %</p>
-                    <p className="p-0 m-0">grey background 90%</p>
+                  <div className="mb-3 pt-3">
+                    <h4 className="fw-bold p-0 m-0">Characteristics</h4>
+                    <button style={{backgroundColor:"#f5f1f1"}} className="btn px-3 py-1  rounded-pill my-3 me-3">10% Body: Blue Eyes</button>
+                    <button style={{backgroundColor:"#f5f1f1"}} className="btn px-3 py-1  rounded-pill m-3">20% Body: Yellow Skin</button>
+                    <button style={{backgroundColor:"#f5f1f1"}} className="btn px-3 py-1  rounded-pill m-3">70% Background: Grey</button>
+                    <button style={{backgroundColor:"#f5f1f1"}} className="btn px-3 py-1  rounded-pill my-3 me-3">100% Hair: Green</button>
+                    <button style={{backgroundColor:"#f5f1f1"}} className="btn px-3 py-1  rounded-pill m-3">10% Wings: Brown</button>
+                   
                   </div>
-                  <div className="mb-3">
-                    <p className="fw-bold p-0 m-0">End date:</p>
-                    <p className="p-0 m-0">February 15, 2023</p>
+                  <div className="mb-5">
+                    <h4 className="fw-bold">End date:</h4>
+                    <button style={{backgroundColor:"#f5f1f1"}} className="btn px-3 py-1  rounded-pill my-3">February 17th, 2023</button>
                   </div>
-                  <div className="mb-4">
-                    <p className="fw-bold p-0 m-0">Contract Address</p>
-                    <p className="text-primary p-0 m-0">KHH 25 NHGFG</p>
+                  <div className="mb-5">
+                    <h4 className="fw-bold">Contract Address</h4>
+                    <h4 className="text-primary p-0 m-0">0Bxd...2Ca4</h4>
                   </div>
-                  <div className="mb-3">
-                    <p className="fw-bold p-0 m-0">Token ID:</p>
-                    <p className="p-0 m-0">9</p>
+                  <div className="mb-5">
+                    <h4 className="fw-bold">Token ID:</h4>
+                    <h4 className="text-primary p-0 m-0">9</h4>
                   </div>
-                  <div className="mb-3">
-                    <p className="fw-bold p-0 m-0">Token Standard:</p>
-                    <p className="p-0 m-0">Bep-20</p>
+                  <div className="mb-5">
+                    <h4 className="fw-bold">Token Standard:</h4>
+                    <h4 className="p-0 m-0">Bep-20</h4>
                   </div>
-                  <div className="mb-3">
-                    <p className="fw-bold p-0 m-0">Blockchain:</p>
-                    <p className="p-0 m-0">Binance</p>
+                  <div className="mb-5">
+                    <h4 className="fw-bold p-0 m-0">Blockchain:</h4>
+                    <h4 className="p-0 m-0">Binance</h4>
                   </div>
+               </div>
                   <div className="text-center">
                     <button
                       style={{
@@ -105,7 +111,7 @@ const NftModal = () => {
                         color: "#fff",
                         background: "#11b1F5",
                       }}
-                      className="border-0"
+                      className="border-0 mb-5"
                       type=""
                     >
                       Buy Now
